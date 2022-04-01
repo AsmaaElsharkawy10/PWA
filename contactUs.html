@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="manifest" href="manifest.json" />
+
+
+    <title>Contact us</title>
+</head>
+
+<body>
+    <nav class="nav bg-dark  justify-content-center|justify-content-end">
+        <a class="nav-link text-light" href="index.html">Home</a>
+        <a class="nav-link text-light" href="about.html">About</a>
+        <a class="nav-link text-light " href="contactUs.html">Contact us</a>
+    </nav>
+
+    <form class="container my-5">
+        <h1 class="text-center text-danger">Contact Us</h1>
+        <div class="mb-3">
+            <label htmlFor="name" class="form-label">Name</label>
+            <input type="text" class='form-control' name="name" placeholder="Enter your name" />
+        </div>
+        <div class="mb-3">
+            <label htmlFor="email" class="form-label">Email</label>
+            <input type="email" class='form-control' name="email" placeholder="Enter your Email"
+                aria-describedby="emailHelp" />
+        </div>
+      
+        <div class="my-3">
+            <label htmlFor="message" class="form-label">Enter your maessage</label>
+            <textarea type="textarea" class='form-control my-3' rows="4" cols="50"
+                placeholder="Enter your Message"></textarea>
+            <button type="button" id="submitBtn" class="btn btn-outline-danger">Send</button>
+        </div>
+    </form>
+    <script src="./app.js></script>
+</body>
+
+</html>
